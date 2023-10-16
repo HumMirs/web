@@ -1,0 +1,568 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+  scroll-behavior: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.header-container {
+  background-color: rgb(60, 6, 94);
+  width: 100%;
+  display: flex;
+  height: 600px;
+}
+.header-container div {
+  width: 70%;
+  padding: 90px 100px;
+  color: white;
+}
+.header-container div h2 {
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.header-container div p {
+  line-height: 30px;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+.header-container div button {
+  padding: 10px 35px;
+  color: white;
+  background-color: rgb(41, 183, 221);
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+}
+.header-container img {
+  padding: 60px;
+  padding-right: 190px;
+}
+
+.one-container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+.one-container h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.two-container {
+  width: 90%;
+  margin: 60px auto;
+  display: flex;
+}
+.two-container img {
+  width: 50%;
+  height: 500px;
+}
+.two-container .two-div {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 23px;
+}
+.two-container .two-div .two-one {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 70px 30px;
+  width: 47%;
+  background-color: rgb(41, 183, 221);
+}
+.two-container .two-div .two-one img {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+.two-container .two-div .two-two {
+  margin-bottom: 20px;
+  padding: 70px 30px;
+  width: 47%;
+  background-color: rgb(139, 114, 238);
+}
+.two-container .two-div .two-two img {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+.two-container .two-div .two-three {
+  margin-right: 20px;
+  padding: 70px 30px;
+  width: 47%;
+  background-color: rgb(93, 59, 231);
+}
+.two-container .two-div .two-three img {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+.two-container .two-div .two-four {
+  padding: 70px 30px;
+  width: 47%;
+  background-color: rgb(189, 114, 239);
+}
+.two-container .two-div .two-four img {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.three-container {
+  margin-top: 50px;
+  background-color: rgb(59, 6, 94);
+  width: 100%;
+  display: flex;
+  height: 750px;
+}
+.three-container .left {
+  padding: 50px;
+}
+.three-container .left img {
+  width: 90%;
+  margin-left: 50px;
+}
+.three-container .left h2 {
+  margin-left: 50px;
+  font-size: 70px;
+  color: white;
+}
+.three-container .right {
+  color: white;
+  font-size: 17px;
+}
+.three-container .right button {
+  color: white;
+  margin-left: 40px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+.three-container .right .right-one h2 {
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+.three-container .right .right-one p {
+  padding-left: 40px;
+  padding-right: 90px;
+}
+.three-container .right .right-two h2 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.three-container .right .right-two p {
+  padding-left: 40px;
+  padding-right: 90px;
+}
+
+.four-container {
+  padding: 100px;
+  display: flex;
+  width: 100%;
+}
+.four-container div h2 {
+  color: rgb(41, 183, 221);
+  font-size: 50px;
+  padding-top: 50px;
+}
+.four-container div p {
+  margin: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.four-container div button {
+  padding: 10px 35px;
+  color: white;
+  background-color: rgb(41, 183, 221);
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+}
+.four-container img {
+  width: 70%;
+}
+
+.five-container {
+  background-color: rgb(59, 6, 94);
+  background-size: auto;
+  position: relative;
+  width: 100%;
+  height: 1040px;
+}
+.five-container .main-img {
+  width: 75%;
+  position: absolute;
+  top: 120px;
+  right: 180px;
+  left: 60px;
+  bottom: 130px;
+  z-index: 2;
+}
+.five-container .divler {
+  position: absolute;
+  top: 450px;
+  right: 10px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+.five-container .divler .bir {
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.five-container .divler .bir img {
+  width: 30%;
+  background-color: rgb(41, 183, 221);
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.five-container .divler .iki {
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.five-container .divler .iki img {
+  width: 30%;
+  background-color: rgb(41, 183, 221);
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.five-container .divler .uc {
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.five-container .divler .uc img {
+  width: 30%;
+  background-color: rgb(41, 183, 221);
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.five-container .divler .dord {
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.five-container .divler .dord img {
+  width: 30%;
+  background-color: rgb(41, 183, 221);
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.five-container .linear {
+  width: 55%;
+  height: 920px;
+  background: repeating-linear-gradient(-45deg, #5d3be7, #5d3be7 5px, rgb(59, 6, 94) 5px, rgb(59, 6, 94) 20px);
+  position: absolute;
+  top: 50px;
+  right: 180px;
+  z-index: 1;
+}
+
+.six-container {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+}
+.six-container div h2 {
+  color: rgb(41, 183, 221);
+  font-size: 50px;
+  padding-top: 50px;
+}
+.six-container div p {
+  margin: 30px 0;
+  margin-right: 50px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+}
+.six-container div button {
+  padding: 10px 35px;
+  color: white;
+  background-color: rgb(41, 183, 221);
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  margin-left: 70px;
+}
+
+.seven-container {
+  background-color: #3b065e;
+  position: relative;
+  width: 100%;
+  height: 1100px;
+}
+.seven-container img {
+  position: absolute;
+  top: 60px;
+  left: 280px;
+  right: 100px;
+  width: 67%;
+  z-index: 2;
+}
+.seven-container .color-div {
+  width: 73%;
+  background-color: #5d3be7;
+  position: absolute;
+  top: 190px;
+  left: 280px;
+  right: 80px;
+  height: 580px;
+  z-index: 1;
+}
+.seven-container .p-container {
+  width: 43%;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  background-color: white;
+  z-index: 3;
+  height: 430px;
+  padding: 60px 50px;
+}
+.seven-container .p-container h2 {
+  font-size: 60px;
+  color: #3b065e;
+}
+.seven-container .p-container p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.seven-container .p-container button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  color: white;
+  background-color: rgb(41, 183, 221);
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+}
+.seven-container .xett {
+  width: 46%;
+  height: 570px;
+  background: repeating-linear-gradient(-45deg, #5d3be7, #5d3be7 5px, rgb(59, 6, 94) 5px, rgb(59, 6, 94) 20px);
+  position: absolute;
+  top: 440px;
+  left: 100px;
+}
+
+.eight-container {
+  width: 100%;
+  display: flex;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.eight-container .sol-div {
+  width: 50%;
+  padding: 80px;
+}
+.eight-container .sol-div h2 {
+  font-size: 43px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.eight-container .sol-div hr {
+  width: 21%;
+  background-color: rgb(41, 183, 221);
+  height: 5px;
+  border: none;
+}
+.eight-container .sag-div {
+  width: 50%;
+  padding: 90px;
+  padding-left: 0;
+}
+.eight-container .sag-div p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.eight-container .sag-div button {
+  padding: 10px 35px;
+  color: white;
+  background-color: rgb(41, 183, 221);
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.nine-container {
+  background-color: #3b065e;
+}
+.nine-container .nine-one {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.nine-container .nine-one h2 {
+  font-size: 45px;
+  font-weight: normal;
+  padding-top: 50px;
+}
+.nine-container .nine-one p {
+  padding: 0 300px;
+  font-size: 20px;
+  margin: 25px;
+}
+.nine-container .nine-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+.nine-container .nine-two div {
+  background-color: white;
+  width: 32%;
+  height: 300px;
+  margin-bottom: 70px;
+  text-align: center;
+  padding: 40px 0;
+}
+.nine-container .nine-two div img {
+  width: 70px;
+  border: 2px solid lightgray;
+  border-radius: 35px;
+  padding: 15px;
+}
+.nine-container .nine-two div h2 {
+  color: darkgray;
+  font-size: 20px;
+  margin: 20px;
+}
+.nine-container .nine-two div p {
+  padding: 0 70px;
+  font-size: 17px;
+}
+.nine-container .nine-two div a {
+  color: black;
+  padding: 0 50px;
+}
+
+.footer-container {
+  background-color: #333333;
+  text-align: center;
+  height: 200px;
+  color: white;
+  font-size: 14px;
+}
+.footer-container p {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.footer-container a {
+  color: rgb(95, 194, 222);
+}
+
+@media only screen and (max-width: 1000px) {
+  [class*=col-] {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
